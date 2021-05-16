@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		F6D568042650DDCA00434B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568032650DDCA00434B98 /* AppDelegate.swift */; };
 		F6D568062650DDCA00434B98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568052650DDCA00434B98 /* SceneDelegate.swift */; };
-		F6D568082650DDCA00434B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568072650DDCA00434B98 /* ViewController.swift */; };
-		F6D5680B2650DDCA00434B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D568092650DDCA00434B98 /* Main.storyboard */; };
 		F6D5680D2650DDCD00434B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D5680C2650DDCD00434B98 /* Assets.xcassets */; };
 		F6D568102650DDCD00434B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D5680E2650DDCD00434B98 /* LaunchScreen.storyboard */; };
+		F6D5681E2650DF6800434B98 /* LotoListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5681D2650DF6800434B98 /* LotoListModel.swift */; };
+		F6D568212650DFAA00434B98 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568202650DFAA00434B98 /* LoginView.swift */; };
+		F6D568242650E10000434B98 /* AuthenticationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568232650E10000434B98 /* AuthenticationTextField.swift */; };
+		F6D568272650E12A00434B98 /* AuthenticationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568262650E12A00434B98 /* AuthenticationLabel.swift */; };
+		F6D5682A2650E14D00434B98 /* AutheticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D568292650E14D00434B98 /* AutheticationView.swift */; };
+		F6D5682D2650E17B00434B98 /* AuthenticationContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5682C2650E17B00434B98 /* AuthenticationContoller.swift */; };
+		F6D568302650E19B00434B98 /* LotoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5682F2650E19B00434B98 /* LotoListController.swift */; };
+		F6D568322650EAFF00434B98 /* LotoAutoNumber.app in Resources */ = {isa = PBXBuildFile; fileRef = F6D568002650DDCA00434B98 /* LotoAutoNumber.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6D568002650DDCA00434B98 /* LotoAutoNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotoAutoNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D568032650DDCA00434B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D568052650DDCA00434B98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F6D568072650DDCA00434B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6D5680A2650DDCA00434B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D5680C2650DDCD00434B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D5680F2650DDCD00434B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D568112650DDCD00434B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D5681D2650DF6800434B98 /* LotoListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotoListModel.swift; sourceTree = "<group>"; };
+		F6D568202650DFAA00434B98 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F6D568232650E10000434B98 /* AuthenticationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTextField.swift; sourceTree = "<group>"; };
+		F6D568262650E12A00434B98 /* AuthenticationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationLabel.swift; sourceTree = "<group>"; };
+		F6D568292650E14D00434B98 /* AutheticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutheticationView.swift; sourceTree = "<group>"; };
+		F6D5682C2650E17B00434B98 /* AuthenticationContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationContoller.swift; sourceTree = "<group>"; };
+		F6D5682F2650E19B00434B98 /* LotoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotoListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +67,45 @@
 		F6D568022650DDCA00434B98 /* LotoAutoNumber */ = {
 			isa = PBXGroup;
 			children = (
+				F6D5681C2650DEEC00434B98 /* Model */,
+				F6D5681B2650DEDE00434B98 /* View */,
+				F6D5681A2650DEB900434B98 /* Controller */,
 				F6D568032650DDCA00434B98 /* AppDelegate.swift */,
 				F6D568052650DDCA00434B98 /* SceneDelegate.swift */,
-				F6D568072650DDCA00434B98 /* ViewController.swift */,
-				F6D568092650DDCA00434B98 /* Main.storyboard */,
 				F6D5680C2650DDCD00434B98 /* Assets.xcassets */,
 				F6D5680E2650DDCD00434B98 /* LaunchScreen.storyboard */,
 				F6D568112650DDCD00434B98 /* Info.plist */,
 			);
 			path = LotoAutoNumber;
+			sourceTree = "<group>";
+		};
+		F6D5681A2650DEB900434B98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5682C2650E17B00434B98 /* AuthenticationContoller.swift */,
+				F6D5682F2650E19B00434B98 /* LotoListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F6D5681B2650DEDE00434B98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6D568202650DFAA00434B98 /* LoginView.swift */,
+				F6D568232650E10000434B98 /* AuthenticationTextField.swift */,
+				F6D568262650E12A00434B98 /* AuthenticationLabel.swift */,
+				F6D568292650E14D00434B98 /* AutheticationView.swift */,
+			);
+			name = View;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		F6D5681C2650DEEC00434B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5681D2650DF6800434B98 /* LotoListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +167,7 @@
 			files = (
 				F6D568102650DDCD00434B98 /* LaunchScreen.storyboard in Resources */,
 				F6D5680D2650DDCD00434B98 /* Assets.xcassets in Resources */,
-				F6D5680B2650DDCA00434B98 /* Main.storyboard in Resources */,
+				F6D568322650EAFF00434B98 /* LotoAutoNumber.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D568082650DDCA00434B98 /* ViewController.swift in Sources */,
+				F6D568242650E10000434B98 /* AuthenticationTextField.swift in Sources */,
 				F6D568042650DDCA00434B98 /* AppDelegate.swift in Sources */,
+				F6D5682D2650E17B00434B98 /* AuthenticationContoller.swift in Sources */,
+				F6D5682A2650E14D00434B98 /* AutheticationView.swift in Sources */,
+				F6D568272650E12A00434B98 /* AuthenticationLabel.swift in Sources */,
+				F6D568302650E19B00434B98 /* LotoListController.swift in Sources */,
+				F6D5681E2650DF6800434B98 /* LotoListModel.swift in Sources */,
+				F6D568212650DFAA00434B98 /* LoginView.swift in Sources */,
 				F6D568062650DDCA00434B98 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +193,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6D568092650DDCA00434B98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6D5680A2650DDCA00434B98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F6D5680E2650DDCD00434B98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
