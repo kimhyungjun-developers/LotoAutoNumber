@@ -89,6 +89,8 @@ class LotoListController: UIViewController, UITableViewDelegate, UITableViewData
         let bouns = "\nボーナス番号 : " + self.lotolists[indexPath.row].bonus
         cell.textLabel?.text = title + number1 + "," + number2 + "," + number3 + "," + number4 + "," + number5 + "," + number6 + bouns
         cell.textLabel?.numberOfLines = 4
+        cell.textLabel?.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        cell.contentView.backgroundColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
         
         return cell
     }
