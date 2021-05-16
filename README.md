@@ -1,70 +1,44 @@
-LotoApiService
+LotoAutoNumber
 ==============
 
 ## Development overview
-* **For Loto number prediction API development**
+* **Loto winning number prediction ios application development**
 
-## Api Service Content
+## ios Application content
 * **Get Loto winning number**   
 * **Loto winning number Database registration**   
 * **Get Loto Prediction Number**   
 
 ## Enviroment
-* **Ubuntu 18.04**   
-* **Visual Studio Code**   
-* **Python3.8.5**   
-* **Oracle 19c**   
-* **Nginx, Flask, uWSGI**   
-* **Slack, Gmail**
-* **Oracle Cloud VM: 1GBRAM, VM.Standard.E2.1.Micro 1 CPU, 40GM SSD**   
-
-* **Test Site : http://158.101.142.134/**   
+* **Mac Os 11.3**   
+* **Xcode**   
+* **Swift 4**   
+* **Macbook Air 13.3 for 2017 cpu:i5 ram:8gb ssd:128gb**   
 
 ## References
-Oracle Cloud Infrastructure Free Tier   
-https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm   
+Xcode 12   
+https://developer.apple.com/xcode/   
 
-Oracle Cloud Getting Start   
-https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Concepts/baremetalintro.htm   
+Swift    
+https://developer.apple.com/swift/   
 
-Oracle Cloud Overview of the Compute Service   
-https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Concepts/computeoverview.htm   
+Macbook air 2017   
+https://support.apple.com/kb/SP753?locale=ja_JP   
 
-Oracle Cloud Creating an Instance   
-https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/launchinginstance.htm?Highlight=bare%20metal   
+Mac os 11.3   
+https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_3-release-notes   
 
-Oracle Cloud Tutorial - Launching Your First Linux Instance   
-https://docs.cloud.oracle.com/en-us/iaas/Content/GSG/Reference/overviewworkflow.htm   
+Ios Design   
+https://developer.apple.com/design/resources/   
 
-Oracle Cloud Overview of the Database Service   
-https://docs.cloud.oracle.com/en-us/iaas/Content/Database/Concepts/databaseoverview.htm   
+Ios Design Themes   
+https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/   
 
-Oracle Cloud Overview of Autonomous Databases   
-https://docs.cloud.oracle.com/en-us/iaas/Content/Database/Concepts/adboverview.htm   
+Swift UIView   
+https://developer.apple.com/documentation/uikit/uiview  
 
-Oracle Cloud Getting Started and Provisioning Autonomous Data Warehouse   
-https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/tutorial-getting-started-autonomous-db-adw/index.html   
+Swift UITableView   
+https://developer.apple.com/documentation/uikit/uiview  
 
-Python Developer’s Guide   
-https://devguide.python.org/   
-
-Nginx Documentation   
-https://nginx.org/en/docs/   
-
-Flask User’s Guide   
-https://flask.palletsprojects.com/en/1.1.x/   
-
-Quickstart for Python/WSGI applications   
-https://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html   
-
-slackclient (Legacy Python Slack SDK)   
-https://slack.dev/python-slackclient/basic_usage.html
-
-python send gmail   
-https://developers.google.com/gmail/api/guides/sending#python_2
-
-python gmail api   
-https://developers.google.com/gmail/api/quickstart/python
-
-Oracle Database for Python Developers   
-https://developer.oracle.com/databases/database-for-python-developers-1.html   
+Swift UISearchBar   
+https://developer.apple.com/documentation/uikit/uisearchbar  
